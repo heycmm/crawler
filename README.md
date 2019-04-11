@@ -1,5 +1,16 @@
 # crawler
 利用nodejs爬取meizitu
+
+使用:
+git clone https://github.com/proxygit/crawler.git
+
+cd crawler/
+
+npm install
+
+node index.js
+
+
 好的，我们从爬虫流程开始分析我们需要的一些模块。<br />
 首先，我们需要发送请求获得页面，在这里呢，我们用到了request-promise模块。<br />
 <pre><code>
